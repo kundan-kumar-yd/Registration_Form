@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Student Registration</title>
+</head>
+
+<body bgcolor="bisque">
+    <h1>Register Yourself For Interview</h1>
+    <form action="">
+        <label for="fname">First Name:</label><input type="text" name="fname" id="fname" size="20" required autofocus>
+        <label for="lname">Last Name:</label><input type="text" name="lname" id="lname" size="20"><br><br>
+        <label for="age">Age:</label><input type="number" name="age" id="age" size="3" required><br><br>
+        <label for="dob">Date Of Birth:</label> <input type="date" name="dob" id="dob" required> <br><br>
+        <label for="email">Email:</label><input type="email" name="email" id="email" required>
+        <label for="password">Password:</label> <input type="password" id="password"> <br><br>
+        <p>How many years of experence do you have?</p>
+        <input type="radio" value="Freshrs" name="exp" id="Freshrs"><label for="Freshrs">Freshrs</label> <br>
+        <input type="radio" id="oneyear" value="oneyear" name="exp"><label for="oneyear">One Year</label> <br>
+        <input type="radio" id="morethenoneyear" value="more" name="exp"> <label for="morethenoneyear">More Then One
+            Year</label> <br><br>
+        Your Faverout Color <input type="color" value="purple"><br> <br>
+        Chose a Programing Language
+        <select name="" id="">
+            <option value="java">java</option>
+            <option value="c">C programing</option>
+            <option value="c++">C++ programing</option>
+            <option value="php">PHP</option>
+            <option value="sql">SQL</option>
+            <option value="html">HTML</option>
+        </select><br><br>
+        <label for="textarea">Tell us why we should hire you:</label> <br>
+        <textarea name="" id="textarea" cols="50" rows="10"></textarea><br><br>
+        <label for="uploadResume">Upload Resume: </label><input type="file" id="uploadResume" name="Upload"
+            accept=".pdf" size="10mb"> <br><br>
+        <input type="reset"> <input type="submit">
+    </form>
+</body>
+
+</html>
